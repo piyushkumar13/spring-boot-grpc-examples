@@ -25,5 +25,5 @@ message HelloResponse {
 
 service GreetService{
   rpc Greet(GreetRequest) returns (GreetResponse);
-  rpc Hello(GreetRequest) returns (HelloResponse);
+  rpc Hello(HelloRequest) returns (HelloResponse);
 }
